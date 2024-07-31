@@ -15,11 +15,11 @@ local DeleteMob ={
 	Aimbot= {
         Keybind = "f"; -- Change Aim Bot Key Bind Here !!! No Capitals, Unless it is MouseButton1 or MouseButton2
 ------------------------------------------------------------------------------------------
-		Enabled = true; -- No Need To Change Anything Here As It Is On The GUI
+		Enabled = false; -- No Need To Change Anything Here As It Is On The GUI
 		TeamCheck = false;
-		WallCheck = true;
+		WallCheck = false;
 		ShowFov = true;
-		Fov = 40000;
+		Fov = 0;
 		Smoothing = 0;
 		AimPart = "Head";
 		Thickness = 1;
