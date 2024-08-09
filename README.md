@@ -8,9 +8,9 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Made By Rtri
 
 local DeleteMob ={
     GUi = {
-        OpenNCloseButton = true; -- Have A Button For It
+        OpenNCloseButton = false; -- Have A Button For It
         KeybindEnable = true; -- If You Want A Bind For The Menu
-        Keybind = "z"; -- Menu Key Bind
+        Keybind = ""; -- Menu Key Bind
     };
 	Aimbot= {
         Keybind = "f"; -- Change Aim Bot Key Bind Here !!! No Capitals, Unless it is MouseButton1 or MouseButton2
